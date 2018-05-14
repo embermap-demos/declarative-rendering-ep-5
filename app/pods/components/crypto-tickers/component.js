@@ -17,6 +17,6 @@ export default Component.extend({
 
       yield timeout(1000);
     }
-  })
+  }).drop()
 
 });

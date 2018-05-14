@@ -24,11 +24,13 @@
       {{homepage-article title='HODL' date='Nov 23'}}
     </section>
 
-    <section class='text-white w-1/4 flex-no-shrink hidden xl:block'>
-      <div class="ml-lg">
-        <h3 class='text-xl'>Market</h3>
-        {{crypto-tickers}}
-      </div>
-    </section>
+    {{#if (media 'isXl')}}
+      <section class='text-white w-1/4 flex-no-shrink'>
+        <div class="ml-lg">
+          <h3 class='text-xl'>Market</h3>
+          {{crypto-tickers}}
+        </div>
+      </section>
+    {{/if}}
   </div>
 </main>
