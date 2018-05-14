@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'declarative-rendering-app-example',
+    podModulePrefix: 'declarative-rendering-app-example/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',

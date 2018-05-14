@@ -1,0 +1,34 @@
+<header class='mt-8 px-8 flex items-center'>
+  <a href="#" class='text-white no-underline text-2xl font-bold uppercase'>
+    Bitcoin World
+  </a>
+  <a href="#" class='text-white ml-auto no-underline border border-blue-light hover:bg-blue-light rounded-full px-8 py-3 text-sm'>
+    Log in
+  </a>
+  <a href="#" class='text-white ml-4 no-underline border border-blue-light bg-blue-light rounded-full px-8 py-3 text-sm'>
+    Register
+  </a>
+</header>
+
+<main class='mt-8 px-8 pb-8'>
+  <div>
+    <h1 class='text-white max-w-md mx-auto text-jumbo leading-none'>
+      Crypto's leading news source
+    </h1>
+  </div>
+
+  <div class='max-w-2xl mx-auto flex mt-lg'>
+    <section class='max-w-lg mx-auto leading-normal'>
+      {{homepage-article title='The newest cryptocurrencies: 2018 edition' date='Jan 3'}}
+      {{homepage-article title='The End is Near' date='Dec 17'}}
+      {{homepage-article title='HODL' date='Nov 23'}}
+    </section>
+
+    <section class='text-white w-1/4 flex-no-shrink hidden xl:block'>
+      <div class="ml-lg">
+        <h3 class='text-xl'>Market</h3>
+        {{crypto-tickers}}
+      </div>
+    </section>
+  </div>
+</main>
